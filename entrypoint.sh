@@ -5,6 +5,6 @@
 service apache2 start
 omd start
 while true; do
-	echo 'USE: docker exec -it $(hostname) bash.
+	echo 'USE: docker exec -it $(hostname) bash.'
 	sleep 100
 done
